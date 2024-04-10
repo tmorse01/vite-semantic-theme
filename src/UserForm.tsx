@@ -71,7 +71,12 @@ const UserForm = () => {
       </FormGroup>
       <FormTextArea label="About" placeholder="Tell us more about you..." />
       <FormCheckbox label="I agree to the Terms and Conditions" />
-      <FormButton primary>Submit</FormButton>
+      <FormGroup inline>
+        <FormButton primary>Primary</FormButton>
+        <FormButton secondary>Secondary</FormButton>
+        <FormButton basic>Basic</FormButton>
+        <FormButton>Standard</FormButton>
+      </FormGroup>
     </Form>
   );
 };
